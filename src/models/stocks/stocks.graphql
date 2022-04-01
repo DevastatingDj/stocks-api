@@ -1,0 +1,13 @@
+type Query {
+    stocks: [Stock]
+    stockByName(name: String!): Stock
+}
+
+type Stock {
+    adjusted52WeekHigh: Float!
+    adjusted52WeekLow: Float!
+    series: String!
+    symbol: String!
+    weekHighDate: String!
+    weekLowDate: String!
+}

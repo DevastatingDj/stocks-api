@@ -1,0 +1,4 @@
+node_modules
+.env
+stocks-api
+stocks-api-key-pair.pem
